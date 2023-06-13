@@ -104,8 +104,8 @@ img {
     .column {
       flex: 100%;
     }
-  
-  
+
+
     .nav-links {
       display: none;
     }
@@ -142,6 +142,26 @@ img {
 
   footer {
     content: right;
+    color: black;
+   text-align: center;
+   
+    
   }
 
-  
+  .greeting {
+    text-align: right;
+    color: yellowgreen;
+    }
+
+    @media (min-width: 768px) {
+      .video {
+          width: 100%;
+          align-content: center;
+      }
+  }
+  @media (min-width: 400px) {
+      .video {
+          width: 100%;
+          align-content: center;
+      }
+  }
